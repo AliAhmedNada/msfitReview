@@ -22,4 +22,18 @@
 
 ![alt MSFit-SA Architecture](https://github.com/AliAhmedNada/msfitReview/blob/main/AWSServices.png)
 
+#### This is Phase 1 for the Arhcitecture required based on the small chunch of info we have currently 
+
+###### 1st we have cognito as Authorizeration and Authentication fedration to register and to have user Rigid Authentication methodolgy 
+###### 2nd we have CloudFront as this is a static website to render the views on Mobile IOS and Android Much more faster 
+###### 3rd route53 to configure domain to use it within cloud front to be an alias 
+###### 4th RDS read replica to make sure that we will never have loads within reads while writing data 
+###### 5th finally lambda to manage the read write data Operations with RDS 
+
+This Architecture is Subjected to change according to the Information we are going to digesit 
+
+
+
+Created by : 
+ALI Nada
 
